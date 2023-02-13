@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo-python-qrcode-wifi"
+version = "0.1.0"
+description = ""
+authors = ["natthasath <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_qrcode_wifi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+qrcode = "^7.4.2"
+pywifi = "^1.1.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
